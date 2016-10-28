@@ -1,0 +1,25 @@
+{
+  "name": "jestify",
+  "version": "1.0.0",
+  "description": "Testing out Facebooks Jest test library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "url": "https://github.com/jihdeh/jest",
+    "type": "git"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "author": "Jihdeh",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "jest": "^16.0.2"
+  }
+}
